@@ -1,4 +1,11 @@
-# Hello
+# Server Config
+
+### NGinx Installation
+
+```
+sudo apt update
+sudo apt install nginx
+```
 
 The following command updates Ubuntu server.
 ```
