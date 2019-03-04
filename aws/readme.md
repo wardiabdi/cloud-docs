@@ -14,9 +14,9 @@ yum update -y
 
 Comment for the following commands
 ```
-sudo chmod -R 755 /usr/share/nginx/html
-sudo chown -R "$USER":www-data /usr/share/nginx/html
-sudo systemctl restart nginx
+sudo chmod -R 755 /usr/share/nginx/html  */ this command allows to set user premission for the home directory/*
+sudo chown -R "$USER":www-data /usr/share/nginx/html */ this command allows premission for the root folder/*
+sudo systemctl restart nginx */ in order the changes to apply the server need to be restarted
 ```
 ```
 sudo chmod -R 755 /usr/share/nginx/html
