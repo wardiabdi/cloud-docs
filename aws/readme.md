@@ -12,19 +12,15 @@ The following command updates Ubuntu server.
 yum update -y
 ```
 
-Comment for the following commands
-```
-```
-This command allows to set user premission for the home directory, it is far safer than using ___sudo su___ command which enables you to wok direct from the _root folder_.
-Now you premission level access then you need to specify the group file by using the colon and the file path.
-Restart the system to apply the changes.
 
+The following 2 commands allows to set user premission for the home directory and change, always chmod rather than using ___sudo su___ command which enables you to work direct from the _root folder_, but it can complicate your future work as you might modify files that does not required to be modified.
+Now you premission level access then you need to specify the group file by using the __colon (:)__ and the file path.
+Restart the system to apply the changes.
+```
+```
 sudo chmod -R 755 /usr/share/nginx/html  
 sudo chown -R "$USER":www-data /usr/share/nginx/html 
-sudo systemctl restart nginx */ in order the changes to apply the server need to be restarted
-```
+sudo systemctl restart nginx 
 ```
 
-chown --help
-sudo systemctl restart nginx
- ```
+
