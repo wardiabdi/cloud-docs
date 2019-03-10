@@ -18,9 +18,16 @@ Now you premission level access then you need to specify the group file by using
 Restart the system to apply the changes.
 ```
 ```
-sudo chmod -R 755 /usr/share/nginx/html  
-sudo chown -R "$USER":www-data /usr/share/nginx/html 
+sudo chmod -R 755 /usr/share/nginx/html 
+```
+```
+sudo chown -R "$USER":www-data /usr/share/nginx/html
+
+```
+```
 sudo systemctl restart nginx 
+
+```
 ```
 
 
