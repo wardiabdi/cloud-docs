@@ -1,8 +1,7 @@
 #DOCUMENTATION REGARDING CLOUD TECHNOLOGIES AND DEV-OPS STUFF.
 ```
-```
 Cloud Computing  principally comes in 3 types of IaaS, Paas and Saas.
-Each customers has a particular *system requirements* and a *business objects*, therefore it is importantto  select the right Cloud service provider. 
+Each customers has a particular *system requirements* and a *business objects*, therefore it is important to select the right Cloud service provider. 
 The following vendors are the market leaders.
 
 |Cloud Vendor|Services type|
