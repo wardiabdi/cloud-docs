@@ -1,9 +1,10 @@
 #DOCUMENTATION REGARDING CLOUD TECHNOLOGIES AND DEV-OPS STUFF.
 ```
 ```
-Cloud Computing  principally comes in 3 types of IaaS, Paas and Saas.
+##Cloud Computing  principally comes in 3 types of IaaS, Paas and Saas.
 Each customers has a particular *system requirements* and a *business objects*, therefore it is important to select the right Cloud service provider. 
 The following vendors are the market leaders.
+
 ```
 ```
 
@@ -17,7 +18,7 @@ The following vendors are the market leaders.
 
 ```
 ```
-##Amazon Web Services (AWS)
+###Amazon Web Services (AWS)
 AWS  provides a Cloud services to  companies and individuals, their infrastructure that is well established. This platform enables to launching a service for particular length of a time or on demand basis. There are mainly 4 types of services such as __Spot Request__, __Reserved Instances__, __Dedicated Host__ and __Capacity Reservation__. The customer can modify requirement overtime monitor their cost to meet their budget. The length of term contract that the client customer purchases cheaper the services becomes.
 There is a _shared tenancy Instance_ and a _dedicated tenancy_, depending on the nature of your security policies of your organisation will dedicated which will be appropriate to rent.  Also the other factors that need to be consider such as Ram, storages and computing power etc. 
 1.	__Spot Requests__
