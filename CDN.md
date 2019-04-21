@@ -1,0 +1,2 @@
+# Content Delivery Network 
+The Content Delivery Network (CDN) is the CloudFront of Amazon. Different user will interact with Amazon Cloud service for diverse purposes.  To accommodate each user request and to maintain low latency and high performance the CloudFront uses CDN. For example user wants to obtain an image. The request to will be send direct to S3 bucket storage. Once the content is fetched it will be display.
